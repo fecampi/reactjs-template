@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle`
 
 *{
-    --color-background: #F000F0;
+    --color-background: #F0000;
     --font-roboto:16px "Roboto Slab", serif;
 
 
@@ -31,4 +31,5 @@ export default createGlobalStyle`
   h1,h2,h3,h4,h5,h6, strong {
     font-weight:500;
   }
+
 `;
